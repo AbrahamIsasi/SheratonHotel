@@ -87,7 +87,7 @@ public class MenuPrincipal extends JFrame {
 		panel.add(panel_1);
 		panel_1.setLayout(null);
 
-		JLabel lblCopyR = new JLabel("Desarrollado por ABRAHAM ISASI M. © 2024");
+		JLabel lblCopyR = new JLabel("Desarrollado por ABRAHAM ISASI MELENDEZ. © 2025");
 		lblCopyR.setBounds(290, 11, 320, 19);//315
 		lblCopyR.setForeground(Color.white);
 		lblCopyR.setFont(new Font("Ubuntu", Font.PLAIN, 16));

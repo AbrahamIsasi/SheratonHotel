@@ -393,7 +393,7 @@ public class ReservasView extends JFrame {
 		txtFormaPago.setBackground(SystemColor.text);
 		txtFormaPago.setBorder(new LineBorder(new Color(255, 255, 255), 1, true));
 		txtFormaPago.setFont(new Font("Ubuntu", Font.PLAIN, 16));
-		txtFormaPago.setModel(new DefaultComboBoxModel(new String[]{"Tarjeta de Crédito", "Tarjeta de Débito", "Dinero en efectivo","-----------------------"}));
+		txtFormaPago.setModel(new DefaultComboBoxModel(new String[]{"Yape", "Plin", "Dinero en efectivo","-----------------------"}));
 		panel.add(txtFormaPago);
 
 		// Crear el JComboBox

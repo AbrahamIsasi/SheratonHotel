@@ -83,7 +83,7 @@ public class Login extends JFrame {
 		panel_1.setLayout(null);
 		
 		JLabel imgHotel = new JLabel("");
-		imgHotel.setBounds(2, 5, 315, 560);
+		imgHotel.setBounds(0, 0, 320, 560);//315.560
 		panel_1.add(imgHotel);
 		imgHotel.setIcon(new ImageIcon(Login.class.getResource("/imagenes/img-hotel-login-.png")));
 		
