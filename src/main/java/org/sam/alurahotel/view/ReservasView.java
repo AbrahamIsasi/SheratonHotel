@@ -382,10 +382,11 @@ public class ReservasView extends JFrame {
 		txtNumeroHabitacion.setForeground(Color.BLACK);
 		txtNumeroHabitacion.setBounds(270, 258, 80, 33);
 		txtNumeroHabitacion.setFont(new Font("Ubuntu", Font.PLAIN, 16));
-		txtNumeroHabitacion.setBorder(BorderFactory.createEmptyBorder());
+		txtNumeroHabitacion.setBorder(BorderFactory.createLineBorder(Color.GRAY, 1)); // Borde visible
 		txtNumeroHabitacion.setEditable(true);
 		panel.add(txtNumeroHabitacion);
 		txtNumeroHabitacion.setColumns(10);
+
 
 
 		txtFormaPago = new JComboBox();

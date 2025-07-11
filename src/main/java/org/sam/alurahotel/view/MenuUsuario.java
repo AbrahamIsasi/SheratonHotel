@@ -185,15 +185,15 @@ public class MenuUsuario extends JFrame {
 		
 	    JPanel panelFecha = new JPanel();
 	    panelFecha.setBackground(new Color(118, 187, 223));
-	    panelFecha.setBounds(256, 84, 688, 121);
+	    panelFecha.setBounds(256, 50, 688, 121);
 	    contentPane.add(panelFecha);
 	    panelFecha.setLayout(null);
 	    
 	    JLabel lblNewLabel_1 = new JLabel("Sistema de reservas Hostal Malecón");
-	    lblNewLabel_1.setBounds(170, 11, 400, 42);
+	    lblNewLabel_1.setBounds(120, 11, 500, 42);
 	    panelFecha.add(lblNewLabel_1);
 	    lblNewLabel_1.setForeground(Color.WHITE);
-	    lblNewLabel_1.setFont(new Font("Ubuntu", Font.PLAIN, 24));
+	    lblNewLabel_1.setFont(new Font("Ubuntu", Font.PLAIN, 28));
 	    
 	    JLabel labelFecha = new JLabel("New label");
 	    labelFecha.setBounds(35, 64, 294, 36);
@@ -206,19 +206,19 @@ public class MenuUsuario extends JFrame {
 	    
 	    JLabel lblNewLabel = new JLabel("Bienvenido");
 	    lblNewLabel.setFont(new Font("Ubuntu", Font.BOLD, 24));
-	    lblNewLabel.setBounds(302, 200, 147, 46);
+	    lblNewLabel.setBounds(302, 185, 147, 46);
 	    contentPane.add(lblNewLabel);
 	    
-	    String textoDescripcion = "<html><body>Hostal Malecón es un nuevo hostal que inicia sus actividades con el compromiso de brindar una atención cálida y un ambiente acogedor. Ubicado en una zona estratégica de la ciudad, ofrece a sus huéspedes una experiencia cómoda y accesible, ideal para viajeros que buscan practicidad, buen servicio y una estancia agradable a un precio justo..</body></html>";
+	    String textoDescripcion = "<html><body>Hostal Malecón inicia sus actividades con el compromiso de brindar una atención cálida y un ambiente acogedor. Ubicado en una zona estratégica de la ciudad, ofrece a sus huéspedes una experiencia cómoda y accesible, ideal para viajeros que buscan practicidad, buen servicio y una estancia agradable a un precio justo..</body></html>";
 	    JLabel labelDescripcion = new JLabel(textoDescripcion);
-	    labelDescripcion.setFont(new Font("Ubuntu", Font.PLAIN, 17));
-	    labelDescripcion.setBounds(312, 250, 598, 80);//66
+	    labelDescripcion.setFont(new Font("Ubuntu", Font.PLAIN, 16));
+	    labelDescripcion.setBounds(312, 232, 602, 85);//66
 	    contentPane.add(labelDescripcion);
 	    
 	    String textoDescripcion1 = "<html><body>Contamos con un espacio privado que brinda acceso a salas de reunión, desayunos complementarios y zonas de trabajo, ideal para quienes desean combinar descanso y productividad. Este ambiente exclusivo y tranquilo convierte a nuestro hostal en una excelente opción para viajeros que valoran la comodidad, el buen servicio y un entorno agradable. </body></html>";
 	    JLabel labelDescripcion_1 = new JLabel(textoDescripcion1);
-	    labelDescripcion_1.setFont(new Font("Ubuntu", Font.PLAIN, 17));
-	    labelDescripcion_1.setBounds(311, 339, 569, 88);
+	    labelDescripcion_1.setFont(new Font("Ubuntu", Font.PLAIN, 16));
+	    labelDescripcion_1.setBounds(311, 330, 575, 98);
 	    contentPane.add(labelDescripcion_1);
 	    
 	    JLabel lblNewLabel_3 = new JLabel("1.- Habitaciones y Suites de Lujo:");
